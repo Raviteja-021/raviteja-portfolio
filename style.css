@@ -117,7 +117,7 @@ main section {
 
 /* --- About Section --- */
 .about-content {
-    display: flex;
+     display: flex;
     align-items: center;
     gap: 3rem;
     flex-direction: column;
@@ -129,7 +129,7 @@ main section {
     border-radius: 50%;
     border: 5px solid var(--primary);
     object-fit: cover;
-    object-position: 50% 50%; /* Adjusted for centering */
+    object-position: 20% 40%; /* Adjusted for centering */
 }
 
 .about-text p {
