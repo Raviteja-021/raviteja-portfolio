@@ -129,7 +129,7 @@ main section {
     border-radius: 50%;
     border: 5px solid var(--primary);
     object-fit: cover;
-    object-position: 20% 40%;
+    object-position: 50% 50%; /* Adjusted for centering */
 }
 
 .about-text p {
@@ -163,7 +163,7 @@ main section {
     background: var(--bg-light);
     border-radius: 10px;
     overflow: hidden;
-    transition: all 1s;
+    transition: all 0.3s ease;
 }
 .project-card:hover { transform: translateY(-5px); }
 .project-card-content { padding: 2rem; }
